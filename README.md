@@ -11,3 +11,5 @@ To run the project, type command in terminal:
 In the root directory there is a JSON file with a collection of pizzas for MongoDB
 
 Insert link to connect MongoDB to server inside index.js
+
+I put frontend build inside project, so app is ready to use.
