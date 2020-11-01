@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "5f9a863df249dc9936449569"
+  },
+  "id": "1",
+  "name": "Buffalo Chicken",
+  "price": {
+    "USD": 12,
+    "EUR": 11
+  },
+  "image": "/assets/BuffaloChicken.jpg",
+  "description": "Grilled chicken, buffalo sauce, mozzarella, cheddar, red onions"
+},{
+  "_id": {
+    "$oid": "5f9ac0a13916a1a52d049de9"
+  },
+  "id": "2",
+  "name": "Hawaiian",
+  "price": {
+    "USD": 13.5,
+    "EUR": 12.3
+  },
+  "image": "/assets/Hawaiian.jpg",
+  "description": "Ham, fresh pineapple, mozzarella, marinara sauce, fresh basil"
+},{
+  "_id": {
+    "$oid": "5f9ac11b3916a1a52d049dea"
+  },
+  "id": "3",
+  "name": "Low Gluten Cheese",
+  "price": {
+    "USD": 10,
+    "EUR": 9
+  },
+  "image": "/assets/LowGlutenCheese.jpg",
+  "description": "Low gluten crust , mozzarella, fresh basil, marinara sauce"
+},{
+  "_id": {
+    "$oid": "5f9ac1943916a1a52d049deb"
+  },
+  "id": "4",
+  "name": "TB Mexican Taco",
+  "price": {
+    "USD": 9,
+    "EUR": 8
+  },
+  "image": "/assets/Mexican.jpg",
+  "description": "Double tortilla , marinara sauce, taco sauce , beef, cheddar, mozzarella, cherry tomatoes"
+},{
+  "_id": {
+    "$oid": "5f9ac1ed3916a1a52d049dec"
+  },
+  "id": "5",
+  "name": "Sausage",
+  "price": {
+    "USD": 11,
+    "EUR": 10
+  },
+  "image": "/assets/Sausage.jpg",
+  "description": "Double italian sausage, mozzarella, marinara sauce, fresh basil"
+},{
+  "_id": {
+    "$oid": "5f9ac23d3916a1a52d049ded"
+  },
+  "id": "6",
+  "name": "Supreme",
+  "price": {
+    "USD": 13.5,
+    "EUR": 12
+  },
+  "image": "/assets/Supreme.jpg",
+  "description": "Pepperoni, fresh basil, mozzarella, italian sausage, bacon, mushrooms, red onions, black olives, green peppers, marinara sauce"
+},{
+  "_id": {
+    "$oid": "5f9ac27a3916a1a52d049dee"
+  },
+  "id": "7",
+  "name": "The Meats",
+  "price": {
+    "USD": 13.5,
+    "EUR": 12
+  },
+  "image": "/assets/TheMeats.jpg",
+  "description": "Pepperoni, ham, italian sausage, mozzarella, bacon, marinara sauce, fresh basil"
+},{
+  "_id": {
+    "$oid": "5f9ac2ba3916a1a52d049def"
+  },
+  "id": "8",
+  "name": "Vegan Veggie",
+  "price": {
+    "USD": 14,
+    "EUR": 13
+  },
+  "image": "/assets/VeganVeggie.jpg",
+  "description": "Red onions, mushrooms, black olives, marinara sauce, fresh basil, vegan mozzarella , cherry tomatoes, pepper green, bell."
+}]

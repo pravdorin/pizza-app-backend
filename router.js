@@ -1,6 +1,7 @@
 const path = require('path');
-const Authentication = require('./controllers/authentication');
+const AuthenticationController = require('./controllers/authentication');
 const PizzaController = require('./controllers/pizza');
+const OrderController = require('./controllers/order');
 const passportService = require('./services/passport');
 const passport = require('passport');
 
@@ -11,9 +12,10 @@ module.exports = function (app) {
     app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
     });
-    app.post('/signin', requireSignin, Authentication.signin);
-    app.post('/signup', Authentication.signup);
+    app.post('/signin', requireSignin, AuthenticationController.signin);
+    app.post('/signup', AuthenticationController.signup);
     app.get('/pizzas', PizzaController.getpizzas);
-    app.post('/order', Authentication.sendorder);
-    app.get('/orders', requireAuth, Authentication.getorders);
+    app.post('/order', OrderController.sendorder);
+    app.get('/orders', requireAuth, OrderController.getorders);
+    app.get('/prefill', requireAuth, OrderController.getprefill);
 }
