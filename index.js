@@ -9,7 +9,10 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://pravdorin:pravdorin@cluster0.9xnrv.mongodb.net/auth?retryWrites=true&w=majority', {
+// Insert link to connect MongoDB to server
+const dbURL = '';
+
+mongoose.connect(dbURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false

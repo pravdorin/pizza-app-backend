@@ -9,3 +9,5 @@ To run the project, type command in terminal:
 # nmp start
 
 In the root directory there is a JSON file with a collection of pizzas for MongoDB
+
+Insert link to connect MongoDB to server inside index.js
